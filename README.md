@@ -26,6 +26,9 @@ In detail:
 * Quand un clone avance ou se trouve sur une position sur laquelle se situe un clone bloqué, il change de direction.
 * If a clone blocks at the bottom of an elevator, the elevator can no longer be used
 *When a clone reaches the floor and the position of the vacuum cleaner, it is saved and disappears from the area
+
+![Level 1 Don't Panic Challenge](https://github.com/Jossuc4/Dont_Panic_Challenge_CodinGame/blob/main/images/Level_1.PNG)
+
 ## Initial inputs
 Line 1: 8 integers: 
 **nbFloors:** the number of floors in the area. The clone can evolve between floor 0 and floor **nbFloors - 1** 
