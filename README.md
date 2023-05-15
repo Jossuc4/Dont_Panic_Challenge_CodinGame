@@ -13,7 +13,8 @@ It's a programming challenge from [CodinGame](https://www.codingame.com) that gi
 You must help the clones reach the exit to escape from the generator area.
 ## Rules
 The area is rectangular and variable in size. It is composed of several floors (0 = lower floor) and each floor has several possible positions for the clones (0 = leftmost position, width - 1 = rightmost position).
->The objective is to save at least one clone in a limited number of rounds.
+
+> The objective is to save at least one clone in a limited number of rounds.
 In detail:
 *The clones come out of a single generator at regular intervals, every 3 turns. The generator is placed on floor 0. The clones exit heading to the right. 
 *The clones advance one position per turn in a straight line, in their current direction. 
