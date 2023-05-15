@@ -6,11 +6,12 @@
 [Link](https://www.codingame.com/ide/puzzle/don't-panic-episode-1)
 
 
-##Description
+## Description
+
 It's a programming challenge from [CodinGame](https://www.codingame.com) that gives you more programming experiences.
 ##Objective of the challenge
 You must help the clones reach the exit to escape from the generator area.
-##Rules
+## Rules
 The area is rectangular and variable in size. It is composed of several floors (0 = lower floor) and each floor has several possible positions for the clones (0 = leftmost position, width - 1 = rightmost position).
 >The objective is to save at least one clone in a limited number of rounds.
 In detail:
