@@ -29,27 +29,48 @@ In detail:
 ## Initial inputs
 Line 1: 8 integers: 
 **nbFloors:** the number of floors in the area. The clone can evolve between floor 0 and floor **nbFloors - 1** 
-**width:** the width of the area. The clone can evolve without being destroyed between position 0 and position **width - 1** **nbRounds:** the maximum number of rounds before the end of the game 
+
+**width:** the width of the area. The clone can evolve without being destroyed between position 0 and position **width - 1**
+
+**nbRounds:** the maximum number of rounds before the end of the game 
+
 **exitFloor:** the floor of the vacuum cleaner 
+
 **exitPos:** the position of the vacuum cleaner at his floor
+
 **nbTotalClones:** the number of clones that will come out of the generator during the game 
+
 **nbAdditionalElevators:** not used for this first question, is always 0 
-**nbElevators:** the number of elevators present in the **areanbElevators** following lines: a couple of integers **elevatorFloor** and **elevatorPos** respectively giving the floor and the position of an elevator.
+
+**nbElevators:** the number of elevators present in the **areanbElevators** following lines: a couple of integers
+
+**elevatorFloor** and **elevatorPos** respectively giving the floor and the position of an elevator.
+
 ## Inputs for a round of play
 **cloneFloor** and **clonePos** giving the coordinates of the unblocked head clone followed by the character string direction which indicates the status of the clone: **LEFT** the clone is heading to the left and **RIGHT** the clone is heading to the right
 ## Out for a round of play
 A single line (ending with a carriage return) indicating the action to be performed: the keyword **WAIT** to do nothing or the **BLOCK** keyword to block the head clone
 ## Contraintes
-**1 ≤ nbFloors ≤ 15
-5 ≤ width ≤ 100
-10 ≤ nbRounds ≤ 200
-0 ≤ exitFloor, elevatorFloor < nbFloors
-0 ≤ exitPos , elevatorPos < width
--1 ≤ cloneFloor < nbFloors
--1 ≤ clonePos < width
-2 ≤ nbTotalClones ≤ 50
-0 ≤ nbElevators ≤ 100**
+**1 ≤ nbFloors ≤ 15**
+
+**5 ≤ width ≤ 100**
+
+**10 ≤ nbRounds ≤ 200**
+
+**0 ≤ exitFloor, elevatorFloor < nbFloors**
+
+**0 ≤ exitPos , elevatorPos < width**
+
+**-1 ≤ cloneFloor < nbFloors**
+
+**-1 ≤ clonePos < width**
+
+**2 ≤ nbTotalClones ≤ 50**
+
+**0 ≤ nbElevators ≤ 100**
+
 Duration of a game round : 100 ms
 
 Good Luck
+
 [Jossuc4](https://github.com/Jossuc4)
